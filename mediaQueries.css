@@ -1,0 +1,305 @@
+@media screen and (max-width: 768px) {
+  /* navbar section */
+
+  #navbar {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex;
+  }
+
+  /* hero section */
+
+  #hero {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* about section */
+  .about-pic-container {
+    height: 500px;
+  }
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .about-details-container {
+    height: auto;
+    width: 80vw;
+  }
+
+  /* skills section */
+
+  .skill-container {
+    height: 40vh;
+  }
+
+  .skill-logo {
+    height: 7.5rem;
+    width: auto;
+  }
+
+  .skillsname {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  /* project section */
+
+  .project-section {
+    gap: 1.3rem;
+  }
+
+  .project-container {
+    height: 20rem;
+    width: 19rem;
+    gap: 0.5rem;
+    border-radius: 2rem;
+  }
+
+  .pro-img {
+    height: 11.5rem;
+    border-radius: 7px;
+  }
+
+  .project-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+  }
+
+  .pro-btn {
+    font-weight: 700;
+    font-size: 0.6rem;
+    transition: all 300ms ease;
+    padding: 0.7rem;
+    width: 5.5rem;
+    border: rgb(75, 73, 73) 0.1rem solid;
+    border-radius: 1rem;
+  }
+
+  /* contact secction */
+  .contact-info p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* navbar section */
+  #navbar {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex;
+  }
+
+  /* hero section */
+
+  #hero {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* about section */
+  #about {
+    padding-top: 1.5rem;
+  }
+
+  /* skills section */
+
+  .skill-container {
+    height: 17rem;
+    width: 85vw;
+  }
+
+  .skill-logo {
+    height: 6rem;
+    width: auto;
+  }
+
+  .skillsname {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  /* project section */
+  .project-section {
+    flex-wrap: wrap;
+  }
+
+  .project-container {
+    width: 16rem;
+  }
+
+  /* contact section */
+  .contact-main-container {
+    flex-wrap: wrap;
+  }
+
+  .email-icon {
+    height: 2rem;
+  }
+
+  .contact-icon {
+    height: 1.5rem;
+  }
+
+  /* footer */
+  footer {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* navbar section */
+
+  #navbar {
+    display: none;
+  }
+
+  /* hamburger section  */
+  #hamburger {
+    display: flex;
+  }
+
+  .navlinksO {
+    font-size: 1.2rem;
+  }
+
+  .navlinksO li {
+    padding: 0.7rem;
+  }
+
+  .navlinksO li i {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  /* hero section  */
+  #hero {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .profileImg {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  /* about section */
+  .about-details-container {
+    height: 1000px;
+  }
+  .about-pic-container {
+    height: 300px;
+    width: 300px;
+  }
+
+  /* skills section */
+  .skill-container {
+    height: 20rem;
+    width: 90vw;
+    flex-wrap: wrap;
+  }
+
+  /* project section */
+
+  .project-section {
+    height: 30rem;
+    width: 75vw;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+    color: black;
+  }
+
+  /* contact section */
+  .contact-container {
+    height: 12rem;
+  }
+
+  /* footer */
+  footer {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #navbar {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex;
+  }
+
+  .navlinksO {
+    font-size: 1.2rem;
+  }
+
+  .navlinksO li {
+    padding: 0.7rem;
+  }
+
+  .navlinksO li i {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  #about {
+    overflow: scroll;
+  }
+
+  /* contact section */
+  .contact-info p {
+    font-size: 0.8rem;
+  }
+
+  .email-icon {
+    height: 1.8rem;
+  }
+
+  .contact-icon {
+    height: 1.4rem;
+  }
+
+  /* contact section */
+  .contact-container {
+    height: 10rem;
+  }
+
+  /* footer */
+  footer {
+    height: 1.5rem;
+    font-size: 0.6rem;
+  }
+}
